@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">bubankClone</string>
+    <string name="hello_user">Olá, Roger</string>
+    <string name="account_balance">Saldo em conta\nR$ 7.500,00</string>
+    <string name="areapix">Àrea pix</string>
+    <string name="Pay_bill">Pagar</string>
+    <string name="convert_limit">Converter\nlimite</string>
+    <string name="recharge">Recarga</string>
+    <string name="my_cards">Meus cartões</string>
+    <string name="secutity_lige">Segura de vida:\n Apartir de R$ 4,00/mês</string>
+    <string name="credit_card">Cartão de crédito</string>
+    <string name="current_invoice">Fatuta atual</string>
+    <string name="invoice_value">R$ 3.000,00</string>
+    <string name="Available_limit">Limite disponívél de R$ 80.000,00</string>
+    <string name="balance">R$ 8.000,00</string>
+</resources>

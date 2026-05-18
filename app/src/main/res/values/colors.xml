@@ -1,0 +1,22 @@
+<resources>
+    <!--  Cores principais  -->
+    <color name="purple_500">#8A05BE</color>
+    <color name="purple_700">#6A00A3</color>
+    <color name="purple_900">#4A0072</color>
+    <color name="purple_300">#BE63EF</color>
+    <!--  Background  -->
+    <color name="background">#FFFFFF</color>
+    <color name="background_dark">#121212</color>
+    <!--  Texto  -->
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#F0F0F0</color>
+    <color name="text_light">#FFFFFF</color>
+    <!--  Estados  -->
+    <color name="success">#00C853</color>
+    <color name="error">#D50000</color>
+    <color name="warning">#FFD600</color>
+    <!--  Cinzas  -->
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_500">#9E9E9E</color>
+</resources>
