@@ -147,7 +147,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:nestedScrollingEnabled="false" />
+                android:nestedScrollingEnabled="false"
+                android:overScrollMode="never"
+                android:background="@color/background"/>
 
             <!-- GIFT CARDS -->
             <androidx.recyclerview.widget.RecyclerView
@@ -155,7 +157,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:nestedScrollingEnabled="false" />
+                android:nestedScrollingEnabled="false"
+                android:overScrollMode="never"
+                android:background="@color/background"/>
 
             <!-- CREDIT CARD -->
             <LinearLayout
@@ -166,6 +170,7 @@
                 android:orientation="vertical"
                 android:padding="20dp">
 
+                <!-- TITLE -->
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -175,17 +180,21 @@
                     android:elevation="0dp"
                     android:gravity="center_vertical"
                     android:text="@string/credit_card"
+                    android:backgroundTint="@color/btn_credit_background"
                     android:textColor="@color/text_primary"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
+                <!-- CURRENT INVOICE -->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:text="@string/current_invoice"
+                    android:textColor="@color/text_primary"
                     android:textSize="16sp" />
 
+                <!-- VALUE -->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -193,20 +202,22 @@
                     android:fontFamily="sans-serif"
                     android:includeFontPadding="false"
                     android:text="@string/invoice_value"
+                    android:textColor="@color/text_primary"
                     android:textSize="28sp"
                     android:textStyle="bold" />
 
+                <!-- LIMIT -->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/Available_limit"
+                    android:textColor="@color/text_primary"
                     android:textSize="14sp" />
 
             </LinearLayout>
 
         </LinearLayout>
-
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

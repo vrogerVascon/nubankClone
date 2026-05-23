@@ -7,7 +7,7 @@
 
     <!-- Barras -->
     <path
-        android:fillColor="#F000"
+        android:fillColor="@color/text_primary"
         android:pathData="
             M2,4h1v16h-1z
             M4,4h2v16h-2z
