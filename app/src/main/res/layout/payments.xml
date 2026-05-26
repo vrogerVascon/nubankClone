@@ -18,6 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <View
+            android:id="@+id/img_view_area_pix"
             android:layout_width="56dp"
             android:layout_height="56dp"
             android:background="@drawable/ic_circle_gray" />

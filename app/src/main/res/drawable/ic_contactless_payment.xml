@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Arco pequeno -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="
+            M110,210
+            C140,240 140,272 110,302
+            C98,314 98,334 110,346
+            C122,358 142,358 154,346
+            C208,292 208,220 154,166
+            C142,154 122,154 110,166
+            C98,178 98,198 110,210Z"/>
+
+    <!-- Arco médio -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="
+            M190,130
+            C270,210 270,302 190,382
+            C178,394 178,414 190,426
+            C202,438 222,438 234,426
+            C338,322 338,190 234,86
+            C222,74 202,74 190,86
+            C178,98 178,118 190,130Z"/>
+
+    <!-- Arco grande -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="
+            M280,50
+            C400,170 400,342 280,462
+            C268,474 268,494 280,506
+            C292,518 312,518 324,506
+            C468,362 468,150 324,6
+            C312,-6 292,-6 280,6
+            C268,18 268,38 280,50Z"/>
+</vector>

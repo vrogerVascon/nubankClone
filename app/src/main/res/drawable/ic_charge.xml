@@ -1,0 +1,72 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960"
+    android:tint="@color/text_primary">
+
+    <!-- Balão invertido -->
+    <group
+        android:scaleX="-1"
+        android:pivotX="480">
+
+        <path
+            android:fillColor="@color/background"
+            android:pathData="M80,880L80,160Q80,127 103.5,103.5Q127,80 160,80L800,80Q833,80 856.5,103.5Q880,127 880,160L880,640Q880,673 856.5,696.5Q833,720 800,720L240,720L80,880ZM206,640L800,640L800,160L160,160L160,685L206,640Z"/>
+    </group>
+
+    <!-- Cifrão menor -->
+    <group
+        android:scaleX="0.65"
+        android:scaleY="0.65"
+        android:pivotX="480"
+        android:pivotY="480">
+
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M500,570
+                              Q560,570 595,540
+                              Q630,510 630,460
+                              Q630,420 605,395
+                              Q580,370 520,355
+                              L520,250
+                              Q550,255 575,270
+                              Q600,285 620,305
+                              L660,255
+                              Q635,230 600,212
+                              Q565,195 520,190
+                              L520,130
+                              L460,130
+                              L460,190
+                              Q400,198 362,235
+                              Q325,272 325,325
+                              Q325,370 352,397
+                              Q380,425 460,445
+                              L460,555
+                              Q420,550 385,530
+                              Q350,510 320,480
+                              L285,535
+                              Q320,565 365,585
+                              Q410,605 460,610
+                              L460,680
+                              L520,680
+                              L520,610
+                              Z
+
+                              M460,340
+                              Q425,330 407,317
+                              Q390,305 390,280
+                              Q390,255 407,240
+                              Q425,225 460,220
+                              Z
+
+                              M520,560
+                              L520,460
+                              Q555,470 572,485
+                              Q590,500 590,525
+                              Q590,548 572,554
+                              Q555,560 520,560
+                              Z"/>
+    </group>
+
+</vector>

@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="@color/text_primary">
+
+    <!-- Retângulo com círculo vazado -->
+    <path
+        android:fillColor="@color/background"
+        android:fillType="evenOdd"
+        android:pathData="
+            M4,5
+            C2.9,5 2,5.9 2,7
+            V17
+            C2,18.1 2.9,19 4,19
+            H12
+            V17
+            H4
+            V7
+            H20
+            V12
+            H22
+            V7
+            C22,5.9 21.1,5 20,5
+            Z
+
+            M12,12
+            m-3,0
+            a3,3 0 1,0 6,0
+            a3,3 0 1,0 -6,0
+
+            M12,12
+            m-2,0
+            a2,2 0 1,0 4,0
+            a2,2 0 1,0 -4,0
+        "/>
+
+    <!-- Seta invertida -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M17,14
+            V19
+            L15.5,17.5
+            L14,19
+            L18,23
+            L22,19
+            L20.5,17.5
+            L19,19
+            V14
+            H17
+            Z"/>
+
+</vector>
