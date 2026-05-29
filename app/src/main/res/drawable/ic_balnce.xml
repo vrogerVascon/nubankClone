@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Linha horizontal -->
+    <item
+        android:top="0dp"
+        android:gravity="center_horizontal">
+
+        <shape android:shape="rectangle">
+
+            <solid android:color="@android:color/transparent"/>
+
+            <stroke
+                android:width="4dp"
+                android:color="@color/text_primary"/>
+
+            <size
+                android:width="28dp"
+                android:height="2dp"/>
+
+        </shape>
+    </item>
+
+    <!-- Retângulo principal -->
+    <item
+        android:top="10dp"
+        android:gravity="center_horizontal">
+
+        <shape android:shape="rectangle">
+
+            <solid android:color="@android:color/transparent"/>
+
+            <stroke
+                android:width="4dp"
+                android:color="@color/text_primary"/>
+
+            <size
+                android:width="28dp"
+                android:height="18dp"/>
+
+        </shape>
+    </item>
+
+    <!-- Círculo -->
+    <item
+        android:top="8dp"
+        android:left="16dp"
+        android:gravity="center">
+
+        <shape android:shape="oval">
+
+            <solid android:color="@android:color/transparent"/>
+
+            <stroke
+                android:width="2dp"
+                android:color="@color/text_primary"/>
+
+            <size
+                android:width="6dp"
+                android:height="6dp"/>
+
+        </shape>
+    </item>
+
+</layer-list>

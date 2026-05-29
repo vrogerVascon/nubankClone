@@ -3,14 +3,14 @@
 
     <style name="Theme.NubankClone" parent="Theme.Material3.DayNight.NoActionBar">
 
-        <!-- Cores principais -->
+        <!-- Primary colors -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorOnPrimary">@color/text_light</item>
 
         <item name="colorPrimaryContainer">@color/purple_700</item>
         <item name="colorOnPrimaryContainer">@color/text_light</item>
 
-        <!-- Secundária -->
+        <!-- Secondary colors -->
         <item name="colorSecondary">@color/purple_700</item>
         <item name="colorOnSecondary">@color/text_light</item>
 
@@ -23,15 +23,15 @@
         <item name="android:statusBarColor">@color/purple_700</item>
         <item name="android:windowLightStatusBar">false</item>
 
-        <!-- Navegação -->
+        <!-- Navigation -->
         <item name="android:navigationBarColor">@color/background</item>
 
-        <!-- Botões -->
+        <!-- Buttons -->
         <item name="materialButtonStyle">@style/Widget.NubankClone.Button</item>
 
     </style>
 
-    <!-- Estilo de botão -->
+    <!-- Default style -->
     <style name="Widget.NubankClone.Button" parent="Widget.Material3.Button">
         <item name="backgroundTint">@color/purple_500</item>
         <item name="android:textColor">@color/text_light</item>

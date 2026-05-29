@@ -6,5 +6,6 @@
     <color name="circle_background">#2A2A2A</color>
     <color name="card_background">#1E1E1E</color>
     <color name="btn_credit_background">#2A2A2A</color>
+    <color name="gray_temporary">#00C853</color>
 
 </resources>

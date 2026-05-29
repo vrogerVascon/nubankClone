@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Ponto 1 -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="M5,10a2,2 0 1,0 0.01,0z"/>
+
+    <!-- Ponto 2 -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="M11,10a2,2 0 1,0 0.01,0z"/>
+
+    <!-- Ponto 3 -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="M17,10a2,2 0 1,0 0.01,0z"/>
+</vector>

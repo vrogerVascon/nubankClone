@@ -15,4 +15,13 @@
     <string name="balance">R$ 8.000,00</string>
     <string name="text_area_pix">Área Pix</string>
     <string name="text_input_area_pix">Digite tudo:chave Pix e valor</string>
+    <string name="available_balance">R$ 1.000,00</string>
+    <string name="separate_balance">R$ 3.0000,00</string>
+    <string name="alright_accounts">Tudo certo com\nsuas contas?</string>
+    <string name="payment_assistant">Ir para assistente de\npagamentos</string>
+    <string name="text_full_investment">Total de investimentos</string>
+    <string name="value_full_investment">R$ 5,00</string>
+    <string name="investment_income">R$ 4.000,00</string>
+    <string name="text_historic">Histórico</string>
+    <string name="text_search">Buscar</string>
 </resources>

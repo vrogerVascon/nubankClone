@@ -16,6 +16,8 @@
         </activity>
         <activity android:name=".service.AreaPix">
         </activity>
+        <activity android:name=".service.ActivityBalance">
+        </activity>
 
 
         <activity

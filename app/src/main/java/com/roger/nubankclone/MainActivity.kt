@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.roger.nubankclone.adapter.AdapterGiftCards
 import com.roger.nubankclone.adapter.PaymentAdapter
+import com.roger.nubankclone.service.ActivityBalance
 import com.roger.nubankclone.service.AreaPix
 
 class MainActivity : AppCompatActivity() {
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnBalance: Button
     private lateinit var visibility: ImageView
     private lateinit var textBalance: TextView
+
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -76,6 +78,11 @@ class MainActivity : AppCompatActivity() {
                 )
             }
 
+        }
+        btnBalance = findViewById(R.id.btn_balance)
+        btnBalance.setOnClickListener {
+            val intent = Intent(this, ActivityBalance::class.java)
+            startActivity(intent)
         }
 
     }
