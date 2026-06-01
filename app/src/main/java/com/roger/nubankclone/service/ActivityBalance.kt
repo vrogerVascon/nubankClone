@@ -1,16 +1,28 @@
 package com.roger.nubankclone.service
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
+import com.roger.nubankclone.MainActivity
 import com.roger.nubankclone.R
 
 class ActivityBalance : AppCompatActivity() {
 
+    private lateinit var btnArrowLeft: ImageButton
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activiy_balance)
+
+
+        btnArrowLeft = findViewById(R.id.btn_arrow_left)
+        btnArrowLeft.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
 
         val cardSeparateBalance =
             findViewById<CardView>(R.id.card_view_separate_balance)

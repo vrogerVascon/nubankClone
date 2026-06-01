@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fundo transparente -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+
+    <!-- Linha inferior -->
+    <item android:gravity="bottom">
+
+        <shape>
+            <size android:height="1dp"/>
+
+            <solid android:color="#666666"/>
+        </shape>
+
+    </item>
+
+</layer-list>
