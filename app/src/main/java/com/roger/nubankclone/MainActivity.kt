@@ -2,23 +2,16 @@ package com.roger.nubankclone
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.graphics.Typeface
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.roger.nubankclone.adapter.AdapterGiftCards
 import com.roger.nubankclone.adapter.PaymentAdapter
-import com.roger.nubankclone.service.ActivityBalance
-import com.roger.nubankclone.service.AreaPix
 
 class MainActivity : AppCompatActivity() {
     private lateinit var areaPix: ImageView
@@ -81,7 +74,7 @@ class MainActivity : AppCompatActivity() {
         }
         btnBalance = findViewById(R.id.btn_balance)
         btnBalance.setOnClickListener {
-            val intent = Intent(this, ActivityBalance::class.java)
+            val intent = Intent(this, BalanceActivity::class.java)
             startActivity(intent)
         }
 

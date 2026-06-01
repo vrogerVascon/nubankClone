@@ -1,13 +1,10 @@
-package com.roger.nubankclone.service
+package com.roger.nubankclone
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import com.roger.nubankclone.MainActivity
-import com.roger.nubankclone.R
 
-class ActivityTransferPix: AppCompatActivity() {
+class TransferPixActivity: AppCompatActivity() {
     private lateinit var btnArrowLeft: ImageButton
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

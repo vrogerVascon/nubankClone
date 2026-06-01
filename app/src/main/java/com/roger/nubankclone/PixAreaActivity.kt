@@ -1,4 +1,4 @@
-package com.roger.nubankclone.service
+package com.roger.nubankclone
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,17 +8,15 @@ import android.widget.EditText
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputLayout
-import com.roger.nubankclone.R
-import kotlin.jvm.java
 
-class AreaPix: AppCompatActivity() {
+class PixAreaActivity: AppCompatActivity() {
     private lateinit var imgTransferPix: ImageView
     private lateinit var btnClose: Button
     private lateinit var inputLayoutPix: TextInputLayout
     private lateinit var editPix: EditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.area_pix)
+        setContentView(R.layout.activity_area_pix)
 
 
         btnClose = findViewById(R.id.btn_close)
@@ -36,7 +34,7 @@ class AreaPix: AppCompatActivity() {
 
         imgTransferPix = findViewById(R.id.img_transfer_pix)
         imgTransferPix.setOnClickListener {
-            val intent = Intent(this, ActivityTransferPix::class.java)
+            val intent = Intent(this, TransferPixActivity::class.java)
             startActivity(intent)
         }
     }

@@ -1,4 +1,4 @@
-package com.roger.nubankclone.service
+package com.roger.nubankclone
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,10 +6,8 @@ import android.util.Log
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
-import com.roger.nubankclone.MainActivity
-import com.roger.nubankclone.R
 
-class ActivityBalance : AppCompatActivity() {
+class BalanceActivity : AppCompatActivity() {
 
     private lateinit var btnArrowLeft: ImageButton
 

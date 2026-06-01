@@ -20,7 +20,7 @@ class AdapterGiftCards(
 
         val view = LayoutInflater
             .from(parent.context)
-            .inflate(R.layout.gift_cards, parent, false)
+            .inflate(R.layout.activity_gift_cards, parent, false)
 
         return GiftCardViewHolder(view)
     }

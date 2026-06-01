@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.roger.nubankclone.service.AreaPix
+import com.roger.nubankclone.PixAreaActivity
 
 class PaymentAdapter(
     private val quantity: Int
@@ -18,7 +18,7 @@ class PaymentAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PaymentViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.payments, parent, false)
+            .inflate(R.layout.activity_payments, parent, false)
         return PaymentViewHolder(view)
 
 
@@ -30,7 +30,7 @@ class PaymentAdapter(
     ) {
 
         holder.imgViewAreaPix.setOnClickListener {
-            val intent = Intent(holder.itemView.context, AreaPix::class.java)
+            val intent = Intent(holder.itemView.context, PixAreaActivity::class.java)
             holder.itemView.context.startActivity(intent)
         }
 

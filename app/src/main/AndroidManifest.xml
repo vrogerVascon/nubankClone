@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NubankClone">
 
-        <activity android:name=".service.InputUser">
+        <activity android:name=".InputUserActivity">
         </activity>
-        <activity android:name=".service.AreaPix">
+        <activity android:name=".PixAreaActivity">
         </activity>
-        <activity android:name=".service.ActivityBalance">
+        <activity android:name=".BalanceActivity">
         </activity>
-        <activity android:name=".service.ActivityTransferPix">
+        <activity android:name=".TransferPixActivity">
         </activity>
 
 

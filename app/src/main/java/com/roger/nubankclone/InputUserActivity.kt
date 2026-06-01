@@ -1,19 +1,17 @@
-package com.roger.nubankclone.service
+package com.roger.nubankclone
 
 import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.edit
-import com.roger.nubankclone.R
 import java.text.NumberFormat
 import java.util.Locale
 
-class InputUser: AppCompatActivity() {
+class InputUserActivity: AppCompatActivity() {
 
     private lateinit var editUser: EditText
     private lateinit var editBalance: EditText
@@ -21,7 +19,7 @@ class InputUser: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.input_user)
+        setContentView(R.layout.activity_input_user)
 
         btnConfirm = findViewById(R.id.btn_confirm)
         editUser = findViewById(R.id.edit_user)
